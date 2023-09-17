@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>华少的个人网站</title>
+ <style>
+    body{
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+    }
+        .flex{
+            display: flex;
+        }
+        .baise{
+            background-color: white;
+        }
+       
+    .flex1{
+flex:1;
+    }
+    .column
+{
+    flex-direction: column;
+}
+.mg8{
+    margin: 8px;
+}
+.mgr8{
+    margin-right: 8px;
+}
+
+.mgt8{margin-top: 8px;
+    }
+    .yinying{box-shadow:0 10px 10px rgba(0, 0, 0, .2);}
+    .daohang{
+        padding: 10px 20px;
+        border-bottom: 1px solid#adaaaa;
+        font-size: 14px;
+        color:#666
+    }
+    @media(max-width:600px)
+    {.cebian{display:none}
+     .neirong{flex-direction:column;}
+     .shujuqu{flex-direction:column;}
+     .youqu{
+        margin-left: 8px;
+     }
+     .shujukuai{
+    margin: 0 0 8px;
+    flex:auto;
+     }
+     }   
+    
+        
+    
+        
+    
+ </style>
+</head>
+<body class="flex">
+    <!--侧边栏-->    
+    <div style="width: 200px;z-index: 2" class="baise yinying">
+   <!--头像-->
+<div style="padding: 10px;align-items: center;
+justify-content: center;border-bottom: 1px solid #999;" class="flex">
+    <img src="./QQ图片20230912001445.jpg" alt="华少" 
+    width="60px" height="60px"><div style="margin-left: 10px;">华少</div>
+</div>
+<!--导航-->
+<div class="flex1">
+    <div class="daohang">导航</div>
+    <div class="daohang">导航</div>
+    <div class="daohang">导航</div>
+    <div class="daohang">导航</div>
+    <div class="daohang">导航</div>
+    <div class="daohang">导航</div>
+</div>   
+ </div>
+     <!--主区域-->   
+     <div class="flex1 flex column">
+      <!--头部栏--> 
+      <div style="height: 60px" class="baise yinying"></div>
+       <!--内容栏-->
+       <div class="flex1 flex neirong">
+     <!--左区-->
+     <div style="flex:3" class="flex column mg8">
+     <!--数据区-->
+     <div class="flex shujuqu">
+     <!--数据块-->
+     <div style="height: 100px" class="flex1 baise yinying mgr8"></div>
+     <div style="height: 100px" class="flex1 baise yinying mgr8"></div>
+     <div style="height: 100px" class="flex1 baise yinying mgr8"></div>
+     <div style="height: 100px" class="flex1 baise yinying"></div></div>
+     <!--列表区-->
+     <div class="flex column" style="z-index: 1">
+        <!--列表项-->
+        <div style="height: 160px" class="baise yinying mgt8"></div>
+        <div style="height: 160px" class="baise yinying mgt8"></div>
+        <div style="height: 160px" class="baise yinying mgt8"></div>
+        <div style="height: 160px" class="baise yinying mgt8"></div>
+        <div style="height: 160px" class="baise yinying mgt8"></div>
+
+        
+        <!--列表项-->
+          <div style="height: 160px" class="baise yinying mgt8"></div>
+            <!--列表项-->
+        <div style="height: 160px" class="baise yinying mgt8"></div>
+     </div></div>
+      <!--右区-->
+    <div style="flex:1" class=" youqu column mgr8 mgt8">
+<!--提示区-->    
+<div style="height: 150px" class="baise yinying"></div>
+<!--消息区-->
+<div style="height: 300px" class="baise yinying mgt8"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
